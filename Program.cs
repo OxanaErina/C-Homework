@@ -58,7 +58,7 @@ else
 Console.Write("Input a number: ");
 int num = Convert.ToInt32(Console.ReadLine());
 
-int current = 0;
+int current = 1;
 
 while(current <= num)
 {
