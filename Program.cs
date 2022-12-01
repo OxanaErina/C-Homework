@@ -8,12 +8,12 @@ int num2 = Convert.ToInt32(Console.ReadLine());
 
 if(num1 > num2)
 {
-    Console.WriteLine(num1 + ">" + num2);
+    Console.WriteLine("max = " + num1);
 }
 
 else
 {
-    Console.WriteLine(num1 + "<" + num2);
+    Console.WriteLine("max = " + num2);
 }
 */
 
@@ -44,11 +44,11 @@ int num = Convert.ToInt32(Console.ReadLine());
 
 if(num%2 == 0)
 {
-    Console.WriteLine(num + " является чётным числом");
+    Console.WriteLine(num + " да, является чётным числом");
 }
 else
 {
-    Console.WriteLine(num + " не является чётным числом");
+    Console.WriteLine(num + " нет, не является чётным числом");
 }
 */
 
