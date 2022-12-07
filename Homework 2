@@ -1,0 +1,46 @@
+// Напишите программу, которая принимает на вход трёхзначное число и на выходе показывает вторую цифру этого числа.
+/*
+int SecondDigit(int num)
+{
+    int result =  num / 10 % 10;
+    return result;
+}
+Console.Write("Введите трёхзначное число: ");
+int threeDigitNumber = Convert.ToInt32(Console.ReadLine());
+
+int newNum = SecondDigit(threeDigitNumber);
+
+Console.WriteLine($"Вторая цифра числа {threeDigitNumber} - {newNum}");
+*/
+
+
+// Напишите программу, которая выводит третью цифру заданного числа или сообщает, что третьей цифры нет.
+
+/*
+Console.Write("Введите число: ");
+int anyNumber = Convert.ToInt32(Console.ReadLine());
+string anyNumberText = Convert.ToString(anyNumber);
+if (anyNumberText.Length > 2){
+  Console.WriteLine("третья цифра -> " + anyNumberText[2]);
+}
+else {
+  Console.WriteLine("-> третьей цифры нет");
+}
+*/
+
+// Напишите программу, которая принимает на вход цифру, обозначающую день недели, и проверяет, является ли этот день выходным.
+/*
+void CheckDayOfTheWeek (int dayNumber) {
+  if (dayNumber == 6 || dayNumber == 7) {
+  Console.WriteLine("этот день выходной");
+  }
+  else if (dayNumber < 1 || dayNumber > 7) {
+    Console.WriteLine("это не номер дня недели");
+  }
+  else Console.WriteLine("этот день не выходной");
+}
+Console.Write("Введите порядковый номер дня недели: ");
+int dayNumber = Convert.ToInt32(Console.ReadLine());
+
+CheckDayOfTheWeek(dayNumber);
+*/
