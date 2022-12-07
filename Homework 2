@@ -17,14 +17,30 @@ Console.WriteLine($"Вторая цифра числа {threeDigitNumber} - {new
 // Напишите программу, которая выводит третью цифру заданного числа или сообщает, что третьей цифры нет.
 
 /*
-Console.Write("Введите число: ");
-int anyNumber = Convert.ToInt32(Console.ReadLine());
-string anyNumberText = Convert.ToString(anyNumber);
-if (anyNumberText.Length > 2){
-  Console.WriteLine("третья цифра -> " + anyNumberText[2]);
+
+int ThirdDigit(int num)
+
+{
+  while(num>999) 
+  {
+    num = num / 10;
+  }
+  int result = num % 10;
+return result;
 }
-else {
-  Console.WriteLine("-> третьей цифры нет");
+
+
+Console.Write("Введите число: ");
+
+int Number = Convert.ToInt32(Console.ReadLine());
+if(Number<100)
+{
+  Console.WriteLine("-1");
+}
+else
+{
+int newNum = ThirdDigit(Number);
+Console.WriteLine($"Третья цифра числа - {newNum}");
 }
 */
 
