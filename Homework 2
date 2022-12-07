@@ -35,7 +35,7 @@ Console.Write("Введите число: ");
 int Number = Convert.ToInt32(Console.ReadLine());
 if(Number<100)
 {
-  Console.WriteLine("-1");
+  Console.WriteLine("-1 (нет третьей цифры)");
 }
 else
 {
