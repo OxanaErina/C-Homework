@@ -3,9 +3,8 @@
 /* 
 
  bool IsItPal(int num) 
- {
-        
-        if(num < 0) 
+ { 
+   if(num < 0) 
         {
             return false;
         }
@@ -16,8 +15,6 @@
             revertedNumber = revertedNumber * 10 + num % 10;
             num /= 10;
         }
-
-        
         return num == revertedNumber || num == revertedNumber/10;
     }
 
