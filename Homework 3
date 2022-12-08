@@ -1,0 +1,81 @@
+// Напишите программу, которая принимает на вход пятизначное число и проверяет, является ли оно палиндромом.
+
+/*
+
+ bool IsItPal(int num) 
+ {
+        
+        if(num < 0) 
+        {
+            return false;
+        }
+
+        int revertedNumber = 0;
+        while(num > revertedNumber) 
+        {
+            revertedNumber = revertedNumber * 10 + num % 10;
+            num /= 10;
+        }
+
+        
+        return num == revertedNumber || num == revertedNumber/10;
+    }
+
+Console.WriteLine("Введите число: ");
+int number = Convert.ToInt32(Console.ReadLine());
+
+bool result = IsItPal(number);
+Console.WriteLine($"Результат проверки: {result} ");
+
+*/
+
+
+// Напишите программу, которая принимает на вход координаты двух точек и находит расстояние между ними в 3D пространстве.
+
+/*
+
+double Distance (double numA, double yA, double zA, double numB, double yB, double zB)
+{
+    double cat1q = Math.Pow(numB-numA, 2);
+    double cat2q = Math.Pow(yB-yA, 2);
+    double cat3q = Math.Pow(zB-zA, 2);
+    double result = Math.Sqrt(cat1q + cat2q + cat3q);
+    return result;
+}
+
+Console.WriteLine("Input numA: ");
+double numA = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Input yA: ");
+double yA = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Input zA: ");
+double zA = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Input numB: ");
+double numB = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Input yB: ");
+double yB = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Input zB: ");
+double zB = Convert.ToDouble(Console.ReadLine());
+
+double DistanceBetweenAB = Distance(numA, yA, zA, numB, yB, zB);
+Console.WriteLine($"Distance between A and B is {DistanceBetweenAB}");
+
+*/
+
+// Напишите программу, которая принимает на вход число (N) и выдаёт таблицу кубов чисел от 1 до N.
+
+/*
+
+void PrintRow(int number)
+{
+   for (int i = 1; i<=number; i++)
+   {
+      double quad = Math.Pow(i, 3);
+      Console.Write(quad + " ");
+   }
+}
+
+Console.WriteLine("Введите число N: ");
+int number = Convert.ToInt32(Console.ReadLine());
+PrintRow(number);
+
+*/
