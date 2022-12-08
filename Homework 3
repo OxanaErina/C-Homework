@@ -65,17 +65,17 @@ Console.WriteLine($"Distance between A and B is {DistanceBetweenAB}");
 
 /*
 
-void PrintRow(int number)
+void Cubes(int number)
 {
    for (int i = 1; i<=number; i++)
    {
-      double quad = Math.Pow(i, 3);
-      Console.Write(quad + " ");
+      double cube = Math.Pow(i, 3);
+      Console.Write(cube + " ");
    }
 }
 
 Console.WriteLine("Введите число N: ");
 int number = Convert.ToInt32(Console.ReadLine());
-PrintRow(number);
+Cubes(number);
 
 */
